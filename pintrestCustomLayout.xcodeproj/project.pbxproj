@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72AE968E1F0A445E00F300AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE968D1F0A445E00F300AD /* AppDelegate.swift */; };
+		72AE96901F0A445E00F300AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE968F1F0A445E00F300AD /* ViewController.swift */; };
+		72AE96931F0A445E00F300AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96911F0A445E00F300AD /* Main.storyboard */; };
+		72AE96951F0A445E00F300AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96941F0A445E00F300AD /* Assets.xcassets */; };
+		72AE96981F0A445E00F300AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */; };
+		72AE96A31F0A445E00F300AD /* pintrestCustomLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96A21F0A445E00F300AD /* pintrestCustomLayoutTests.swift */; };
+		72AE96AE1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96AD1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72AE969F1F0A445E00F300AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AE96821F0A445D00F300AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AE96891F0A445D00F300AD;
+			remoteInfo = pintrestCustomLayout;
+		};
+		72AE96AA1F0A445F00F300AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72AE96821F0A445D00F300AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72AE96891F0A445D00F300AD;
+			remoteInfo = pintrestCustomLayout;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72AE968A1F0A445D00F300AD /* pintrestCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pintrestCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE968D1F0A445E00F300AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72AE968F1F0A445E00F300AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72AE96921F0A445E00F300AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72AE96941F0A445E00F300AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		72AE96971F0A445E00F300AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		72AE96991F0A445E00F300AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AE969E1F0A445E00F300AD /* pintrestCustomLayoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintrestCustomLayoutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE96A21F0A445E00F300AD /* pintrestCustomLayoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintrestCustomLayoutTests.swift; sourceTree = "<group>"; };
+		72AE96A41F0A445E00F300AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AE96A91F0A445F00F300AD /* pintrestCustomLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintrestCustomLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		72AE96AD1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintrestCustomLayoutUITests.swift; sourceTree = "<group>"; };
+		72AE96AF1F0A445F00F300AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72AE96871F0A445D00F300AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE969B1F0A445E00F300AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE96A61F0A445F00F300AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72AE96811F0A445D00F300AD = {
+			isa = PBXGroup;
+			children = (
+				72AE968C1F0A445E00F300AD /* pintrestCustomLayout */,
+				72AE96A11F0A445E00F300AD /* pintrestCustomLayoutTests */,
+				72AE96AC1F0A445F00F300AD /* pintrestCustomLayoutUITests */,
+				72AE968B1F0A445D00F300AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72AE968B1F0A445D00F300AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72AE968A1F0A445D00F300AD /* pintrestCustomLayout.app */,
+				72AE969E1F0A445E00F300AD /* pintrestCustomLayoutTests.xctest */,
+				72AE96A91F0A445F00F300AD /* pintrestCustomLayoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72AE968C1F0A445E00F300AD /* pintrestCustomLayout */ = {
+			isa = PBXGroup;
+			children = (
+				72AE968D1F0A445E00F300AD /* AppDelegate.swift */,
+				72AE968F1F0A445E00F300AD /* ViewController.swift */,
+				72AE96911F0A445E00F300AD /* Main.storyboard */,
+				72AE96941F0A445E00F300AD /* Assets.xcassets */,
+				72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */,
+				72AE96991F0A445E00F300AD /* Info.plist */,
+			);
+			path = pintrestCustomLayout;
+			sourceTree = "<group>";
+		};
+		72AE96A11F0A445E00F300AD /* pintrestCustomLayoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				72AE96A21F0A445E00F300AD /* pintrestCustomLayoutTests.swift */,
+				72AE96A41F0A445E00F300AD /* Info.plist */,
+			);
+			path = pintrestCustomLayoutTests;
+			sourceTree = "<group>";
+		};
+		72AE96AC1F0A445F00F300AD /* pintrestCustomLayoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				72AE96AD1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift */,
+				72AE96AF1F0A445F00F300AD /* Info.plist */,
+			);
+			path = pintrestCustomLayoutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72AE96891F0A445D00F300AD /* pintrestCustomLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AE96B21F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayout" */;
+			buildPhases = (
+				72AE96861F0A445D00F300AD /* Sources */,
+				72AE96871F0A445D00F300AD /* Frameworks */,
+				72AE96881F0A445D00F300AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pintrestCustomLayout;
+			productName = pintrestCustomLayout;
+			productReference = 72AE968A1F0A445D00F300AD /* pintrestCustomLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72AE969D1F0A445E00F300AD /* pintrestCustomLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AE96B51F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutTests" */;
+			buildPhases = (
+				72AE969A1F0A445E00F300AD /* Sources */,
+				72AE969B1F0A445E00F300AD /* Frameworks */,
+				72AE969C1F0A445E00F300AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AE96A01F0A445E00F300AD /* PBXTargetDependency */,
+			);
+			name = pintrestCustomLayoutTests;
+			productName = pintrestCustomLayoutTests;
+			productReference = 72AE969E1F0A445E00F300AD /* pintrestCustomLayoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		72AE96A81F0A445F00F300AD /* pintrestCustomLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72AE96B81F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutUITests" */;
+			buildPhases = (
+				72AE96A51F0A445F00F300AD /* Sources */,
+				72AE96A61F0A445F00F300AD /* Frameworks */,
+				72AE96A71F0A445F00F300AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72AE96AB1F0A445F00F300AD /* PBXTargetDependency */,
+			);
+			name = pintrestCustomLayoutUITests;
+			productName = pintrestCustomLayoutUITests;
+			productReference = 72AE96A91F0A445F00F300AD /* pintrestCustomLayoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72AE96821F0A445D00F300AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Infosys LTD";
+				TargetAttributes = {
+					72AE96891F0A445D00F300AD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GRW5FZZFA4;
+						ProvisioningStyle = Automatic;
+					};
+					72AE969D1F0A445E00F300AD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GRW5FZZFA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72AE96891F0A445D00F300AD;
+					};
+					72AE96A81F0A445F00F300AD = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = GRW5FZZFA4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 72AE96891F0A445D00F300AD;
+					};
+				};
+			};
+			buildConfigurationList = 72AE96851F0A445D00F300AD /* Build configuration list for PBXProject "pintrestCustomLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72AE96811F0A445D00F300AD;
+			productRefGroup = 72AE968B1F0A445D00F300AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72AE96891F0A445D00F300AD /* pintrestCustomLayout */,
+				72AE969D1F0A445E00F300AD /* pintrestCustomLayoutTests */,
+				72AE96A81F0A445F00F300AD /* pintrestCustomLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72AE96881F0A445D00F300AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE96981F0A445E00F300AD /* LaunchScreen.storyboard in Resources */,
+				72AE96951F0A445E00F300AD /* Assets.xcassets in Resources */,
+				72AE96931F0A445E00F300AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE969C1F0A445E00F300AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE96A71F0A445F00F300AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72AE96861F0A445D00F300AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE96901F0A445E00F300AD /* ViewController.swift in Sources */,
+				72AE968E1F0A445E00F300AD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE969A1F0A445E00F300AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE96A31F0A445E00F300AD /* pintrestCustomLayoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72AE96A51F0A445F00F300AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72AE96AE1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72AE96A01F0A445E00F300AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AE96891F0A445D00F300AD /* pintrestCustomLayout */;
+			targetProxy = 72AE969F1F0A445E00F300AD /* PBXContainerItemProxy */;
+		};
+		72AE96AB1F0A445F00F300AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72AE96891F0A445D00F300AD /* pintrestCustomLayout */;
+			targetProxy = 72AE96AA1F0A445F00F300AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72AE96911F0A445E00F300AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AE96921F0A445E00F300AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72AE96971F0A445E00F300AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72AE96B01F0A445F00F300AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		72AE96B11F0A445F00F300AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72AE96B31F0A445F00F300AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		72AE96B41F0A445F00F300AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayout/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		72AE96B61F0A445F00F300AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintrestCustomLayout.app/pintrestCustomLayout";
+			};
+			name = Debug;
+		};
+		72AE96B71F0A445F00F300AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayoutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pintrestCustomLayout.app/pintrestCustomLayout";
+			};
+			name = Release;
+		};
+		72AE96B91F0A445F00F300AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pintrestCustomLayout;
+			};
+			name = Debug;
+		};
+		72AE96BA1F0A445F00F300AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = GRW5FZZFA4;
+				INFOPLIST_FILE = pintrestCustomLayoutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = pintrestCustomLayout;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72AE96851F0A445D00F300AD /* Build configuration list for PBXProject "pintrestCustomLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE96B01F0A445F00F300AD /* Debug */,
+				72AE96B11F0A445F00F300AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72AE96B21F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE96B31F0A445F00F300AD /* Debug */,
+				72AE96B41F0A445F00F300AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72AE96B51F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE96B61F0A445F00F300AD /* Debug */,
+				72AE96B71F0A445F00F300AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72AE96B81F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72AE96B91F0A445F00F300AD /* Debug */,
+				72AE96BA1F0A445F00F300AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72AE96821F0A445D00F300AD /* Project object */;
+}
