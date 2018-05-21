@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C57889920B2B3250024D118 /* customImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C57889820B2B3250024D118 /* customImageView.swift */; };
+		72408B411F0B7F4600356286 /* CustomLayoutAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72408B401F0B7F4600356286 /* CustomLayoutAttributes.swift */; };
 		72AE968E1F0A445E00F300AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE968D1F0A445E00F300AD /* AppDelegate.swift */; };
-		72AE96901F0A445E00F300AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE968F1F0A445E00F300AD /* ViewController.swift */; };
 		72AE96931F0A445E00F300AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96911F0A445E00F300AD /* Main.storyboard */; };
 		72AE96951F0A445E00F300AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96941F0A445E00F300AD /* Assets.xcassets */; };
 		72AE96981F0A445E00F300AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */; };
 		72AE96A31F0A445E00F300AD /* pintrestCustomLayoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96A21F0A445E00F300AD /* pintrestCustomLayoutTests.swift */; };
 		72AE96AE1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96AD1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift */; };
+		72AE96BC1F0A449C00F300AD /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96BB1F0A449C00F300AD /* CollectionViewController.swift */; };
+		72AE96BE1F0A44BF00F300AD /* customCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72AE96BD1F0A44BF00F300AD /* customCollectionViewCell.swift */; };
+		72CB290C1F0A6EFB001794DB /* roundedRectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB290B1F0A6EFB001794DB /* roundedRectView.swift */; };
+		72CB290E1F0A7039001794DB /* MyCustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72CB290D1F0A7039001794DB /* MyCustomCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C57889820B2B3250024D118 /* customImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customImageView.swift; sourceTree = "<group>"; };
+		72408B401F0B7F4600356286 /* CustomLayoutAttributes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLayoutAttributes.swift; sourceTree = "<group>"; };
 		72AE968A1F0A445D00F300AD /* pintrestCustomLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pintrestCustomLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AE968D1F0A445E00F300AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		72AE968F1F0A445E00F300AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		72AE96921F0A445E00F300AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		72AE96941F0A445E00F300AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		72AE96971F0A445E00F300AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,10 @@
 		72AE96A91F0A445F00F300AD /* pintrestCustomLayoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pintrestCustomLayoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		72AE96AD1F0A445F00F300AD /* pintrestCustomLayoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pintrestCustomLayoutUITests.swift; sourceTree = "<group>"; };
 		72AE96AF1F0A445F00F300AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72AE96BB1F0A449C00F300AD /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		72AE96BD1F0A44BF00F300AD /* customCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
+		72CB290B1F0A6EFB001794DB /* roundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedRectView.swift; sourceTree = "<group>"; };
+		72CB290D1F0A7039001794DB /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,51 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C9D005020AAED7F005EF133 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				72AE96BB1F0A449C00F300AD /* CollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3C9D005120AAED8E005EF133 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				72408B401F0B7F4600356286 /* CustomLayoutAttributes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3C9D005220AAED93005EF133 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				72CB290B1F0A6EFB001794DB /* roundedRectView.swift */,
+				72CB290D1F0A7039001794DB /* MyCustomCollectionViewCell.swift */,
+				72AE96BD1F0A44BF00F300AD /* customCollectionViewCell.swift */,
+				3C57889820B2B3250024D118 /* customImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3C9D005320AAEDB7005EF133 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				72AE96941F0A445E00F300AD /* Assets.xcassets */,
+				72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */,
+				72AE96911F0A445E00F300AD /* Main.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3C9D005420AAEDF3005EF133 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				72AE968D1F0A445E00F300AD /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 		72AE96811F0A445D00F300AD = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +152,12 @@
 		72AE968C1F0A445E00F300AD /* pintrestCustomLayout */ = {
 			isa = PBXGroup;
 			children = (
-				72AE968D1F0A445E00F300AD /* AppDelegate.swift */,
-				72AE968F1F0A445E00F300AD /* ViewController.swift */,
-				72AE96911F0A445E00F300AD /* Main.storyboard */,
-				72AE96941F0A445E00F300AD /* Assets.xcassets */,
-				72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */,
 				72AE96991F0A445E00F300AD /* Info.plist */,
+				3C9D005420AAEDF3005EF133 /* Application */,
+				3C9D005020AAED7F005EF133 /* Controllers */,
+				3C9D005120AAED8E005EF133 /* Models */,
+				3C9D005320AAEDB7005EF133 /* Resources */,
+				3C9D005220AAED93005EF133 /* Views */,
 			);
 			path = pintrestCustomLayout;
 			sourceTree = "<group>";
@@ -262,8 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				72AE96901F0A445E00F300AD /* ViewController.swift in Sources */,
+				72AE96BC1F0A449C00F300AD /* CollectionViewController.swift in Sources */,
+				3C57889920B2B3250024D118 /* customImageView.swift in Sources */,
+				72CB290C1F0A6EFB001794DB /* roundedRectView.swift in Sources */,
+				72408B411F0B7F4600356286 /* CustomLayoutAttributes.swift in Sources */,
 				72AE968E1F0A445E00F300AD /* AppDelegate.swift in Sources */,
+				72CB290E1F0A7039001794DB /* MyCustomCollectionViewCell.swift in Sources */,
+				72AE96BE1F0A44BF00F300AD /* customCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -514,6 +574,7 @@
 				72AE96B41F0A445F00F300AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72AE96B51F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +583,7 @@
 				72AE96B71F0A445F00F300AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		72AE96B81F0A445F00F300AD /* Build configuration list for PBXNativeTarget "pintrestCustomLayoutUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +592,7 @@
 				72AE96BA1F0A445F00F300AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

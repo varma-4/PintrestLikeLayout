@@ -2,8 +2,8 @@
 //  pintrestCustomLayoutUITests.swift
 //  pintrestCustomLayoutUITests
 //
-//  Created by Mani Kanta Varma Datla on 03/07/17.
-//  Copyright © 2017 Infosys LTD. All rights reserved.
+//  Created by Mani on 03/07/17.
+//  Copyright © 2017 Mani All rights reserved.
 //
 
 import XCTest

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="IOE-Eu-6a6">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Collection View Controller-->
+        <scene sceneID="cT8-d3-Upj">
+            <objects>
+                <collectionViewController id="IOE-Eu-6a6" customClass="CollectionViewController" customModule="pintrestCustomLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="M4r-Kr-epc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewLayout key="collectionViewLayout" id="4eo-dR-otc" customClass="customCollectionViewLayout" customModule="pintrestCustomLayout" customModuleProvider="target"/>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="PwI-LA-2bZ" customClass="MyCustomCollectionViewCell" customModule="pintrestCustomLayout" customModuleProvider="target">
+                                <rect key="frame" x="91.5" y="0.0" width="192" height="257"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                    <rect key="frame" x="0.0" y="0.0" width="192" height="257"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xmN-Sg-rz1" customClass="RoundedRectView" customModule="pintrestCustomLayout" customModuleProvider="target">
+                                            <rect key="frame" x="0.0" y="0.0" width="192" height="257"/>
+                                            <subviews>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HY8-EV-u8z" customClass="customImageView" customModule="pintrestCustomLayout" customModuleProvider="target">
+                                                    <rect key="frame" x="0.0" y="0.0" width="192" height="200"/>
+                                                    <color key="backgroundColor" red="0.45882352939999999" green="0.85882352939999995" blue="0.76078431369999999" alpha="1" colorSpace="calibratedRGB"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="200" id="eDf-tc-rfU"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                            <constraints>
+                                                <constraint firstItem="HY8-EV-u8z" firstAttribute="top" secondItem="xmN-Sg-rz1" secondAttribute="top" id="B5S-rP-BkJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="HY8-EV-u8z" secondAttribute="trailing" id="iCI-kZ-UST"/>
+                                                <constraint firstItem="HY8-EV-u8z" firstAttribute="leading" secondItem="xmN-Sg-rz1" secondAttribute="leading" id="ksv-K3-DFD"/>
+                                            </constraints>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                    <real key="value" value="5"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                        </view>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="xmN-Sg-rz1" firstAttribute="top" secondItem="PwI-LA-2bZ" secondAttribute="top" id="AXn-OW-M9m"/>
+                                    <constraint firstAttribute="bottom" secondItem="xmN-Sg-rz1" secondAttribute="bottom" id="HPH-ZO-yJT"/>
+                                    <constraint firstItem="xmN-Sg-rz1" firstAttribute="leading" secondItem="PwI-LA-2bZ" secondAttribute="leading" id="RDc-8f-x9O"/>
+                                    <constraint firstAttribute="trailing" secondItem="xmN-Sg-rz1" secondAttribute="trailing" id="jD0-oM-PDx"/>
+                                </constraints>
+                                <size key="customSize" width="192" height="257"/>
+                                <connections>
+                                    <outlet property="heightConstraint" destination="eDf-tc-rfU" id="rk7-N3-R1a"/>
+                                    <outlet property="myimageView" destination="HY8-EV-u8z" id="Wn6-Pl-sKC"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="IOE-Eu-6a6" id="raR-UO-6DO"/>
+                            <outlet property="delegate" destination="IOE-Eu-6a6" id="vxA-zJ-l1Q"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q8Q-wE-Ydy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="116" y="139.880059970015"/>
+        </scene>
+    </scenes>
+</document>
