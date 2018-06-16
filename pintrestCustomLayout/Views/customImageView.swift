@@ -32,7 +32,7 @@ class customImageView: UIImageView {
         }
         
         if index == indexValue {
-            let randomIndex = arc4random_uniform(9)
+            let randomIndex = arc4random_uniform(19)
             let image = UIImage(named: "\(randomIndex + 1)")!
             let imageToCache = image
             imageCache.setObject(imageToCache, forKey: indexValue as AnyObject)

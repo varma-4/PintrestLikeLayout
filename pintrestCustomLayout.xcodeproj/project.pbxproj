@@ -57,6 +57,7 @@
 		72AE96BD1F0A44BF00F300AD /* customCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = customCollectionViewCell.swift; sourceTree = "<group>"; };
 		72CB290B1F0A6EFB001794DB /* roundedRectView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundedRectView.swift; sourceTree = "<group>"; };
 		72CB290D1F0A7039001794DB /* MyCustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		AD31A9A420D58C65005C4D59 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +118,7 @@
 				72AE96941F0A445E00F300AD /* Assets.xcassets */,
 				72AE96961F0A445E00F300AD /* LaunchScreen.storyboard */,
 				72AE96911F0A445E00F300AD /* Main.storyboard */,
+				72AE96991F0A445E00F300AD /* Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -132,6 +134,7 @@
 		72AE96811F0A445D00F300AD = {
 			isa = PBXGroup;
 			children = (
+				AD31A9A420D58C65005C4D59 /* README.md */,
 				72AE968C1F0A445E00F300AD /* pintrestCustomLayout */,
 				72AE96A11F0A445E00F300AD /* pintrestCustomLayoutTests */,
 				72AE96AC1F0A445F00F300AD /* pintrestCustomLayoutUITests */,
@@ -152,7 +155,6 @@
 		72AE968C1F0A445E00F300AD /* pintrestCustomLayout */ = {
 			isa = PBXGroup;
 			children = (
-				72AE96991F0A445E00F300AD /* Info.plist */,
 				3C9D005420AAEDF3005EF133 /* Application */,
 				3C9D005020AAED7F005EF133 /* Controllers */,
 				3C9D005120AAED8E005EF133 /* Models */,
@@ -248,7 +250,7 @@
 				TargetAttributes = {
 					72AE96891F0A445D00F300AD = {
 						CreatedOnToolsVersion = 8.3;
-						DevelopmentTeam = GRW5FZZFA4;
+						DevelopmentTeam = D3AXA88DHR;
 						ProvisioningStyle = Automatic;
 					};
 					72AE969D1F0A445E00F300AD = {
@@ -475,8 +477,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GRW5FZZFA4;
-				INFOPLIST_FILE = pintrestCustomLayout/Info.plist;
+				DEVELOPMENT_TEAM = D3AXA88DHR;
+				INFOPLIST_FILE = "$(SRCROOT)/pintrestCustomLayout/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -488,8 +490,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GRW5FZZFA4;
-				INFOPLIST_FILE = pintrestCustomLayout/Info.plist;
+				DEVELOPMENT_TEAM = D3AXA88DHR;
+				INFOPLIST_FILE = "$(SRCROOT)/pintrestCustomLayout/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Infosys-LTD.pintrestCustomLayout";
 				PRODUCT_NAME = "$(TARGET_NAME)";

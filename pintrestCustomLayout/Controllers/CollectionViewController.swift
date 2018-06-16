@@ -47,6 +47,7 @@ extension CollectionViewController {
     
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as? MyCustomCollectionViewCell
+        cell?.myimageView.image = nil
         cell?.myimageView.setImage(forIndex: indexPath.item)
         return cell!
     }
@@ -56,7 +57,7 @@ extension CollectionViewController {
 extension CollectionViewController: customCollectionViewLayoutDelegate {
    
     func collectionView(collectionView: UICollectionView, heightForPhotoAtIndexPath indexPath: IndexPath, withWidth width: CGFloat) -> CGFloat {
-        let randomIndex = arc4random_uniform(9)
+        let randomIndex = arc4random_uniform(19)
         let photo:UIImage = UIImage(named: "\(randomIndex + 1)")!
         let boundingRect = CGRect(x: 0, y: 0, width: width, height: CGFloat(MAXFLOAT))
         let frame = AVMakeRect(aspectRatio: photo.size, insideRect: boundingRect)
